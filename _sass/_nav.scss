@@ -30,10 +30,23 @@
  --------------------------- */
  #toc {
     margin-bottom: 1em;
+    position: fixed;
+
+
     .nav {
         display: block;
     }
 
+#toc a{
+    border-bottom: none;
+}
+
+#toc a:hover{
+    color: $mycolor-1;
+    text-decoration: none;
+    background-color: transparent;
+    border-left-color: $mycolor-2;
+}
  } 
 
  
